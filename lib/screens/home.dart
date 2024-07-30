@@ -1,13 +1,10 @@
-
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:note_app/constants/colors.dart';
 import 'package:note_app/hive_helper.dart';
 import 'package:note_app/model.dart';
 import 'package:note_app/model/note_model.dart';
-//import 'package:note_app/models/note.dart';
 import 'package:note_app/screens/edit.dart';
 
 class HomeScreen extends StatefulWidget {
