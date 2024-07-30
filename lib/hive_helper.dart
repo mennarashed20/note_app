@@ -1,7 +1,7 @@
 
 import 'package:hive/hive.dart';
 import 'package:note_app/model/note_model.dart';
-
+//
 class HiveHelper {
   static List<NoteModel> noteList = [];
 
@@ -29,3 +29,4 @@ class HiveHelper {
     Hive.box<NoteModel>("keep_note").clear();
   }
 }
+
